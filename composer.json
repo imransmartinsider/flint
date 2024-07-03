@@ -1,7 +1,8 @@
 {
-    "name": "imransmartins/my-flint",
+    "name": "imransmartinsider/my-flint",
     "description": "A simple PHP framework",
     "type": "project",
+    "license": "MIT",
     "require": {
         "php": "^8.0",
         "illuminate/support": "^9.0",
