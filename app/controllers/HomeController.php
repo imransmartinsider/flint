@@ -9,12 +9,12 @@ class HomeController
 
     //    return customFunction6();
         // // Data to pass to the view
-        // $data = [
-        //     'title' => 'Home Page',
-        //     'params' => $params
-        // ];
+        $data = [
+            'title' => 'Home Page',
+            'params' => $params
+        ];
 
         // // Render the view
-         view('home');
+         view('home',$data);
     }
 }

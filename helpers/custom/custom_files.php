@@ -1,9 +1,9 @@
 <?php
 
-function customFunction3() {
+function customFunction() {
     return "Hello from customFunction3!";
 }
 
-function customFunction4() {
-    return "Hello from customFunction4!";
+function customFunctionNew() {
+    return "other Function!";
 }
