@@ -5,8 +5,8 @@
     RewriteCond %{REQUEST_URI}::$1 ^(.*?/)(.*)::\2$
     RewriteRule ^(.*) - [E=BASE:%1]
 
-    # Redirect all requests to index.php
+    # Redirect all requests to serve.php for development server
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^ %{ENV:BASE}public/index.php [QSA,L]
+    RewriteRule ^ %{ENV:BASE}server.php [QSA,L]
 </IfModule>

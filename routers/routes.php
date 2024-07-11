@@ -1,7 +1,5 @@
 <?php
-
 require_once 'web.php';
-
 use App\RouteManager;
 
 addRoute('home', '/', 'App\Controllers\HomeController', 'index');
